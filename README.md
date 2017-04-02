@@ -5,23 +5,21 @@ Partner 1:
 <h3>DerekR0123</h3>
 <br>
 Partner 2:
-<h3>Patrick Driscoll</h3>
-<h3>Patricks Github Here</h3>
+<!--- Patrick Driscoll had to drop the class --->
 
 ## Overview ##
 <h4>What and How?</h4><br>
 <!--- Derek's Section --->
-So what exactly is a Midi-Keyboard and why did we choose it? Well a Midi-Keyboard is a keyboard thaat you can hook up to your computer
+So what exactly is a Midi-Keyboard and why did we choose it? Well a Midi-Keyboard is a keyboard that you can hook up to your computer
 and use it with different music creation software to produce all sorts of cool results! Our goal is to have the program read sheet music
 from a library and have the key that reperesents the note being played light up from an LED underneath it! In order to do this we need a few non traditional things such as an Arduino Unit, Serial-to-midi conversion software, LED's, and a keyboard to test it all with. The way it works is it uses a midi-input instead of serial input along with an Arduino made by Patrick Driscoll. The goal is to have the library read music into the program and the program will dictate which keys from there represent what and will light up accordingly.
 <br><br>
 <h4>Why?</h4><br>
-We chose this project after discussing about things we were passionate about. This turns out to be something that Patrick is very passionate about and takes his personal time outside of school and work to learn about.<br>
+We chose this project after discussing about things we were passionate about. This turns out to be something that Patrick is very passionate about and takes his personal time outside of school and work to learn about. He wanted to incorporate something through
+coding that could teach people how to play the piano by following the lights of the keys on the keyboard!<br>
 <!--- End of Dereks Section --->
 
-<!--- Patricks Section --->
-<!--- Patrick explain why you love this here like how you thought this could teach people how to play the piano
-      and explain what you hope to learn--->
+
 
 <br>
 <br>
@@ -61,27 +59,22 @@ able to play a song using like a recursive call going down a list of planned not
 <!--- End of Dereks Section --->
 <br>
 
-<!--- Patricks Section --->
-<!--- Try to make a diagram and show what peices really go into this. I tried to give a rough explanation in paragraph one but im no where near as educated or intelligent about this area as you are! --->
-Architecture Diagram
-visual diagram showing the major components of the project
-include external things that your project will connect to
-include arrows showing flow of information
-internal components annotated with Racket libraries that they will use
-<!--- End of Patricks Section --->
+<h3>External Technologies:</h3><br>
+I sort of touch on this in the first paragraph of this proposal, but essentially we need a few hardware components and one software component that don't include the standard things required to code in Racket. We need a Keyboard with LED's, An Arduino device with ability to be attatched to the keyboard, Conversion software for the music and arduino, and lastly sheet music which I beleive we can use one of the audio libraries for. For more detail on how they incorporate into the project please see the first paragraph in the proposal!<br>
+<br>
 
-
-<!--- Both of us pt1. --->
-important: annotate each block with the GH username of the person who is primarily responsible for its creation
-Make the slides in Google Slides.
-
-
-<!--- Both of us pt2. --->
-Then, import your deck into the slide deck. You have write privileges based on your membership in the class forum.
-
-You and your teammates will give the presentation in class the day that this assignment is due.
-
-Fill out Project Information Form
-
-Enter project details into a new Google form.
+<h3>Deliverable's and Demonstration's</h3><br>
+The goal (High level) at the end of this project is to have a keyboard that is lit only by one key at a time. During which when the user presses thaat key it should play the note associated with it. Every time a key is pressed the note is removed from a queue in which the rest of the sheet music is following behind thus allowing the user to follow along with a song.<br>
+What I plan to acheive for a minimum standard is a mapping from notes to keys in a representation of object orientation and then follow it up with a way to recursively map all the keys on the keyboard to some form of note. This would allow me to get a good demonstration of what I learned in class and get the goal of the assignment done. Provided I have more time I will attempt to go for the High level overview with sheet music.<br>
+Lastly the goal would be to have either the professor or someone in class come up and try the project out for themselves! What could be cooler then to see something work in your own hands!<br>
+<br>
+<br>
+<h3>Evaluation of Results<h3>
+How Will I know if I will be successful? Well this is something that Patrick is deeply passionate about and has already gone out of his way to get the arduino end done so we are well on our way. I truly beleive any time you care enough about something you are bound to excel at it. I love music and I would love to bring something as cool as this to life and with proper planning over the next few weeks this will become a reality.<br>
+<br>
+<br>
+<h3>Architecture</h3>
+If you trace back to this repository you will find a powerpoint with details of how we plan to carry out this project and all the things it entitles.</h3>
+<br>
+<br>
 
