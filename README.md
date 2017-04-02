@@ -6,7 +6,8 @@ Partner 1:
 <br>
 Partner 2:
 <!--- Patrick Driscoll had to drop the class --->
-
+<br>
+<br>
 ## Overview ##
 <h4>What and How?</h4><br>
 <!--- Derek's Section --->
