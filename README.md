@@ -64,6 +64,19 @@ able to play a song using like a recursive call going down a list of planned not
 I sort of touch on this in the first paragraph of this proposal, but essentially we need a few hardware components and one software component that don't include the standard things required to code in Racket. We need a Keyboard with LED's, An Arduino device with ability to be attatched to the keyboard, Conversion software for the music and arduino, and lastly sheet music which I beleive we can use one of the audio libraries for. For more detail on how they incorporate into the project please see the first paragraph in the proposal!<br>
 <br>
 
+<h3>Interal Technologies:</h3><br>
+<ul>Libraries and Accessories:
+<li>Port Audio (Audio Engine)</li>
+<li>Midi (Parser for MIDI Files)</li>
+  <li>Rsound (Plugin Library)</li>
+  <li>Rtmidi (Creation of a virtual port)</li>
+  <li>Midiworld (Free Midi Files for testing)</li>
+  <li>Piano Notes (Folder with notes)</li></ul>
+  <br>
+  <br>
+  
+
+
 <h3>Deliverable's and Demonstration's</h3><br>
 The goal (High level) at the end of this project is to have a keyboard that is lit only by one key at a time. During which when the user presses thaat key it should play the note associated with it. Every time a key is pressed the note is removed from a queue in which the rest of the sheet music is following behind thus allowing the user to follow along with a song.<br>
 What I plan to acheive for a minimum standard is a mapping from notes to keys in a representation of object orientation and then follow it up with a way to recursively map all the keys on the keyboard to some form of note. This would allow me to get a good demonstration of what I learned in class and get the goal of the assignment done. Provided I have more time I will attempt to go for the High level overview with sheet music.<br>
