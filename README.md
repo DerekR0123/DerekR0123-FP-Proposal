@@ -77,4 +77,16 @@ How Will I know if I will be successful? Well this is something that Patrick is 
 If you trace back to this repository you will find a powerpoint with details of how we plan to carry out this project and all the things it entitles.</h3>
 <br>
 <br>
-
+<h3> Schedule / MileStone's </h3>
+First Week / Milestone: The first week will be sound evaluation. I will work on getting sounds to play in racket. The goal would be to have it load some mp3 file and be able to play that song on command.<br>
+<br>
+Second Week / Milestone: The second week's goal will to work on mapping keys. I will try to get them to do simple things first followed by mapping the commands of playing sounds to the keys. <br>
+<br>
+Final Week(s): The goal from here on out is to now incorporate lessons from OPL into the above things. Once this is done if there is any remaining time from then on out the goal is to acheive coordinated lighting based on the notes for a song. We would need to then take the song from a library, take week 1 and 2's work and incorporate it to a data structure that will read each peice into a key and highlight it one at a time and dequeue it when pressed. Most likely this is a far fetched idea but I'd rather have idea's early then run out of things to do later. <br>
+<br>
+Public Presentation: The goal would to have someone come up and try the program out. They should be able to push a key and have it perform some sort of music playback. Provided we get further then this they could even go through the tutorial and learn how to play a song or atleast be a cool DJ for the moment!<br>
+<br>
+<br>
+<h3>Group Responsabilities</h3>
+Derek Ross @DerekR0123 <br>
+At this current time I will be writing and working on ALL features.
