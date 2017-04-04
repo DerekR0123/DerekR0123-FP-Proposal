@@ -5,7 +5,8 @@ Partner 1:
 <h3>DerekR0123</h3>
 <br>
 Partner 2:
-<!--- Patrick Driscoll had to drop the class --->
+<h3>Patrick Driscoll</h3>
+<h3>pdriscoll89</h3>
 <br>
 <br>
 ## Overview ##
